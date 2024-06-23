@@ -1,1 +1,129 @@
 /*  your css code here. If applicable */
+.head{
+	width:150px;
+	height:150px;
+	margin:50px;
+	background:#a4d9eb;
+	border:5px solid #9bbcc2;
+	border-radius:20px;
+	position:relative;
+	
+}
+
+.light{
+	position:relative;
+}
+
+.bulb{
+	width:30px;
+	height:30px;
+	background-color:#ffa500;
+	border-radius:50%;
+	position:absolute;
+	top:-45px;
+	left:28.5%;
+	transform:translateX(50%);
+	z-index:100;
+	
+	
+}
+
+.stick{
+	width:10px;
+	height:15px;
+	background-color:#808080;
+	position:absolute;
+	top:-20px;
+	left:42%;
+	transform:translateX(50%)
+	
+
+	
+}
+.ears{
+	width:10px;
+	height:50px;
+	border-radius:5px;
+	/* background-color:#c90a0a; */
+	
+	
+	
+}
+
+.ears > :first-child {
+    background-color: #c90a0a;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -5%;
+    margin-left: -5px;
+    width: 10px; 
+    height: 50px; 
+	border-radius:5px;
+}
+.ears > :last-child {
+    background-color: #c90a0a;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 105%;
+    margin-left: -5px; 
+    width: 10px; 
+    height: 50px; 
+	border-radius:5px;
+}
+.eyes{
+	width:100px;
+	position:absolute;
+	top:25px;
+	display:flex;
+	justify-content:space-between;
+	left:50%;
+	gap:20px;
+	transform:translateX(-50%);
+
+}
+.eye {
+    width: 30px; 
+    height: 30px; 
+    border: 5px solid #00b3ff; 
+    border-radius: 50%; 
+    background-color: white; 
+}
+
+.nose{
+	width: 0; 
+    height: 0; 
+	border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+    border-bottom: 30px solid #c90a0a;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%) rotate(0deg);
+    
+}
+.mouth{
+	width:100px;
+	height:25px;
+	background-color:#dedede;
+	border:1px solid black;
+	border-radius:20px;
+	position:absolute;
+	bottom:25px;
+	left:50%;
+	transform:translateX(-50%);
+	overflow:hidden;
+	display:flex;
+	justify-content:space-around;
+}
+.tooth{
+	width:5px;
+	background-color:black;
+	height:50px;
+	
+	
+}
+
+
+
